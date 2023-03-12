@@ -1,0 +1,41 @@
+.box{
+    background-color: rgba(255, 0, 0, 0);
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    top: 0%;
+    bottom: 0%;
+}
+.logo{
+    position: absolute;
+    left: 1%;
+    top: 3%;
+    bottom: 0%;
+}
+.linknav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5%;
+}
+.capa{
+    position: absolute;
+    top: 17%;
+    width: 100%;
+}
+.sobre{
+    background-color: rgba(21, 0, 255, 0);
+    position: absolute;
+    top: 80%;
+}
+body{
+    background: fixed;
+}
+.qs{
+    background-color: rgba(0, 225, 255, 0);
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    top: 20%;
+    
+
+}

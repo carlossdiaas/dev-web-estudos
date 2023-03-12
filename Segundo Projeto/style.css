@@ -1,0 +1,59 @@
+body{
+    background-color: #d2d2c1;
+    background-image: url(Projeto-ana/fundo.png);
+}
+nav{
+    background-color: rgb(190, 185, 171);
+    width: 100;
+    min-height: 80px;
+    
+}
+header{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.capa{
+    width: 100%;
+}
+main{
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1{
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(130, 119, 79);
+    font-size: 2em;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.linknav{
+    position: relative;
+    top: 25px;
+    left: 20px;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: rgb(94, 133, 167);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+p{
+    font-size: 1.2em;
+    margin-left:20px ;
+    
+    padding-bottom: 20px;
+}
+h3{
+    text-align: center;
+    font-size: bold
+    ;
+}
+.foto{
+    margin-left: 20px;
+    border: 10px solid #d2d2c1;
+    width: 60%;
+    max-width: 80%;
+    margin-bottom: 20px;
+
+}

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(204, 204, 204, 0.477);
+}
+.branco{
+    color: white;
+}
+header{
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+}
+.titulo{
+    font-size: 2.5em;
+    color: rgb(118, 118, 118);
+    padding: 15px;
+}
+nav{
+    padding: 15px;
+}
+.navlink{
+    text-decoration: none;
+    padding: 8px 12px;
+    color: white;
+    font-size: 1.2em;
+}
+.navlink:hover{
+    color: orange;
+    background-color: white;
+}
+#area-principal{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+#area-postagens{
+    width: 75%;
+    background-color: rgba(204, 204, 204, 0);
+    float: left;
+}
+
+/*AQUI COMEÇAMOS ESTILIZANDO AS POSTAGENS*/ 
+.postagem{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+}
+.titulo-postagem{
+    font-size: 2em;
+    color: orange;
+    padding: 10px 10px 0px 10px;
+}
+.data-postagem{
+    font-size: 1.1em;
+    padding: 0px 10px;
+}
+.img-postagem{
+    width: 95%;
+    padding: 10px;
+}
+.sobre-postagem{
+    font-size: 1.1em;
+    padding: 10px;
+    text-indent: 10px;
+}
+/*AQUI TERMINA A ESTILIZAÇAO DAS POSTAGENS*/ 
+
+/*AQUI COMEÇAMOS ESTILIZANDO A BARRA LATERAL*/ 
+#area-lateral{
+    width: 23%;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    padding: 7px;
+}
+.titulo-lateral{
+    padding: 4px;
+    background-color: #ccc;
+}
+.sobre-lateral{
+    padding: 10px;
+}
+.link-lateral{
+    padding: 10px
+}
+/*AQUI TERMINA A ESTILIZAÇAO DA BARRA LATERAL  */
+.rodape{
+    clear: both;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: rgb(108, 108, 108);
+    padding: 10px;
+
+}
