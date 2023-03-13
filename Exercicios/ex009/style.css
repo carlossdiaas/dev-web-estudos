@@ -1,0 +1,122 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    
+    max-width: 1280px;
+    margin:  auto;
+}
+#container{
+    background-color: #e0e0e0;
+}
+#marca{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #b2b2b2;
+    height: 200px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+
+    background-image: url(imagens/121721_lg_enceladus_feat.jpg);
+    background-position: center bottom;
+    background-size: cover;
+}
+#conteudo{  
+    width: 70%;
+    float: right;
+    padding: 10px;
+    background-color: #e0e0e0;
+    margin-left: 50px;
+}
+
+#conteudoprincipal{
+    float: left;
+    width: 65%;
+    background-color: white;
+}
+#conteudoprincipal img{
+    width: 95%;
+    padding: 10px;
+}
+#conteudosecundario{
+    float: right;
+    width: 30%;
+    background-color: white;
+}
+#conteudoprincipal > h1,h2,h3,p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#conteudosecundario > h1,h2,h3,p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#navegacao{
+    width: 18%;
+    background-color: #d3d3d3;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+#navegacao nav{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    text-align: start;
+}
+#navegacao nav a{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+#rodapé{
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+    
+    clear: both;
+    background: #b2b2b2;
+}
+@media screen and (max-width:850px){
+    #navegacao{
+        width: 100%;
+        float: none;
+        clear: both;
+
+        
+    }
+    #navegacao nav{
+        flex-direction: row;
+        
+    }
+    #fica{
+        display:block;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    #sai{
+        display: none;
+    }
+    #navegacao nav > a{  
+        margin-left: 20px;
+        width: 100%;
+        
+    }
+    
+    #conteudo{
+        width: 100%;
+    }
+    #conteudosecundario{
+        display: none;
+    }
+    #conteudoprincipal{
+        width: 100%;
+        margin-left: 10px;
+    }
+    body{
+        width: 100%;
+    }
+}
