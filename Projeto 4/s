@@ -1,0 +1,47 @@
+.caixa{
+    background-image: url(imagens/fundo-caixa.png);
+    padding: 10px;
+
+}
+.caixa > h2{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+#nav-lateral{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    padding: 10px;
+    background-color: white;
+}
+#nav-lateral > a{
+    text-align: center;
+    padding: 3px;
+    color: black;
+    text-decoration: none;
+}
+#nav-lateral > a:hover{
+    color: rgba(0, 0, 0, 0.631);
+    
+}
+
+
+
+<div class="caixa">
+    <h2>Entrevistas</h2>
+    <div id="conteudo-caixa">
+        <nav id="nav-lateral">
+            <a href="#">🔗 Conteudo</a>
+            <a href="#">🔗 Conteudo</a>
+            <a href="#">🔗 Conteudo</a>
+            <a href="#">🔗 Conteudo</a>
+            <a href="#">🔗 Conteudo</a>
+            <a href="#">🔗 Conteudo</a>
+            <a href="#">🔗 Conteudo</a>
+        </nav>
+    </div>
+</div>

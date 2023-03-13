@@ -1,0 +1,13 @@
+#caixa{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 400px;
+    height: 35%;
+    background-color: rgba(207, 207, 207, 0.445);
+    border-radius: 25px;
+
+    box-shadow: inset 0 0 20px rgb(128, 128, 128);
+}

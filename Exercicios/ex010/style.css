@@ -1,0 +1,69 @@
+body{
+    background-image: url(arquivos-necessarios-estilizando-formularios-parte2/arquivos-necessarios-estilizando-formularios-parte2/fundo.jpg);
+    
+    
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+#container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 400px;
+    height: 35%;
+    background-color: rgba(255, 255, 255, 0.445);
+    border-radius: 25px;
+}
+img{
+    position: relative; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input{
+    display: block;
+    width: 83%;
+    margin-left: 0;
+    margin: auto;
+    padding: 10px 0px;
+    color: #ccc;
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+input#email{
+    background-image: url(arquivos-necessarios-estilizando-formularios-parte2/arquivos-necessarios-estilizando-formularios-parte2/icone-usuario.png);
+
+
+    background-repeat: no-repeat;
+    background-position: 5px;
+    
+}
+input#senha{
+    background-image: url(arquivos-necessarios-estilizando-formularios-parte2/arquivos-necessarios-estilizando-formularios-parte2/icone-cadeado.png);
+
+
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+input#logar{
+    color: white;
+    background-color: orange;
+    width: 80%;
+    border: 2px solid #db7d00;
+    padding: 5px 20px;
+    height: 45px;
+    width: 90%;
+    
+}
+input#logar:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, orange, rgba(219, 94, 94, 0.529));
+    border: 2px solid rgba(65, 105, 225, 0.243);
+}

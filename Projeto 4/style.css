@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}body{
+    background-image: url(imagens/fundo.png);
+    background-repeat: repeat-x;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    margin: auto;
+}
+header{
+    width: 750px;
+    margin: auto;
+    background-image: url(imagens/detalhe-topo.png) no-repeat right;
+}
+main{
+    width: 750px;
+    margin: auto;
+}
+footer{ 
+    margin-top: 50px;
+    height: 50px;
+    background-color: rgb(34, 34, 186);
+    clear: both;
+    color: white;
+    text-align: center;
+    line-height: 50px
+}
+#logo{
+    margin-top: 20px;
+}
+#navegacao{
+    margin-top: 25px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    height: 30px;
+    padding: 10px;
+    
+}
+#menu{
+    line-height: 25px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgba(255, 0, 0, 0);
+}
+#menu > a{
+    margin: 0;
+    color: white;
+    padding: 10px 26.4px;
+    background-color: rgb(236, 31, 31);
+    text-decoration: none; 
+    background-image: url(imagens/divisor.png);
+    background-repeat: no-repeat;
+    background-position: center left;  
+}
+.semdivisor{
+    background-image: none;
+}
+body.home #home ,        /*  FAZ COM  QUE A PAGINA FIQUE MARCADA    */
+body.brasil #brasil ,
+body.internacional #internacional ,
+body.economia #economia,
+body.saude #saude ,
+body.ciencia #ciencia,
+body.fotos #fotos{
+    background-color: rgb(112, 32, 32);
+}
+#menu a:hover{
+    background-color: rgba(172, 50, 50, 0.689);
+}
+#conteudo{
+    width:100%;
+    margin-top: 100px;
+    
+
+}
+.caixa{
+    background-image: url(imagens/fundo-caixa.png);
+    padding: 10px;
+
+}
+.caixa > h2{
+    background-color: #294c71;
+    color: fff;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.conteudo-caixa h3{
+    font-size: 0.9em;
+    background-color: rgb(228, 120, 120);
+    padding: 5px;
+}
+.conteudo-caixa img{
+    width: 89%;
+    padding: 5%;}
+#nav-lateral{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    padding: 10px;
+    background-color: white;
+}
+#nav-lateral > a{
+    padding: 3px;
+    color: black;
+    text-decoration: none;
+    
+}
+#nav-lateral > a:hover{
+    color: rgba(0, 0, 0, 0.631);
+    background-image: url(imagens/marcador.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+
+    
+}
+#lateral{
+    width: 170px;
+    background-color: rgba(255, 0, 0, 0);
+    margin-right: 30px;
+}
+#principal{
+    width: 270px;
+    background-color: rgba(0, 0, 255, 0);
+    margin-right: 10px;
+    margin-left: 200px;
+    margin-top: -271px;
+}
+#secundario{
+    width: 270px;
+    background-color: rgba(0, 128, 0, 0);
+    margin-left: 500px;
+    margin-top: -322px;
+}
+#news{
+    width: 170px;
+    margin-top: -30px;
+}
+#news #email{
+    width: 100%;
+}
+#news #botao{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgb(255, 56, 56);
+    color: white;
+    font-size: 1.2em;
+}
+#news #botao:hover{
+    background-color: red;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+#mundo{
+    width: 270px;
+    margin-left: 200px;
+    margin-top: -100px;
+    padding: 5px;    
+}
+#conteudo-caixa{
+    margin-bottom: 25px;
+}
+#mundo a{
+    text-decoration: none;
+}
+#mundo img{
+    float: left;
+    margin-right: 5px;
+}
+#mundo h3{
+    font-size: 1em;
+    color: cadetblue;
+}
+#mundo p{
+    font-size: 0.8em;
+    color: black;
+}
+/*FORMATAÇAO DE COLUNAS*/
+#umacoluna #principal{
+    width: 100%;   
+}
+#umacoluna #secundario{
+    display: none;
+}
+#duascolunas #principal{
+    width: 540px;
+}
+#duascolunas #secundario{
+    display: none;
+}
+#novos{
+    margin-left: 290px;
+    margin-top: -430px;
+}
+
+
+
