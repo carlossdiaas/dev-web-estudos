@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    height: 150px;
+    background-color: #2c281f;
+}
+main{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(255, 0, 0, 0);
+    max-width: 1000px;
+    display: flex;
+}
+#topo{
+    height: 100px;
+}
+#titulo{
+    width: 300px;
+    display: flex;
+    position: absolute;
+    margin-left: 80px;
+    line-height: 100px;
+    color: white;
+}
+span{
+    color: #654d32;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 100px;
+    margin-right: 80px;
+}
+    
+nav a{
+    margin: 0px 15px;
+    color: #654d32;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav a:hover{
+    color: rgba(19, 61, 19, 0.805);
+} 
+/***************CONTEUDOS*********************/
+#imgs{
+    display: flex;
+    margin-top: -50px;
+}
+.foto1{
+    width: 100%; 
+    box-shadow: 2px 2px 4px 5px rgba(0, 0, 0, 0.450);
+}
+#conteudo{
+    width: 66%;
+    background-color: rgba(255, 0, 0, 0);
+    margin-bottom: 100px;
+    margin: 0.75%;
+}
+#divisao2{
+    background-color: rgba(255, 0, 0, 0);
+    height: 400px;
+    margin-top: 20px;
+    display: flex;
+}
+#vid{
+    background-color: rgba(0, 0, 255, 0);
+    width: 45%;
+    height: 200px;
+    margin: 2.5%;
+    box-shadow: 2px 2px 4px 5px rgba(0, 0, 0, 0.450);
+    
+}
+#loc{
+    background-color: rgba(43, 255, 0, 0);
+    width: 45%;
+    margin: 2.5%;
+    height: 200px;
+    box-shadow: 2px 2px 4px 5px rgba(0, 0, 0, 0.450);
+}
+#vidtxt{
+    width: 100%;
+    margin-top: 18%;
+}
+#vid h2{
+    font-size: 1em;
+    margin: 5px;
+    color: green;
+    font-weight: bolder;
+}
+#loc h2{
+    font-size: 1em;
+    margin: 5px;
+    color: green;
+    font-weight: bolder;
+}
+#vidtxt{
+    color: #544231;
+    margin-left: 20px;
+}
+#vidtxt ul > li{
+    padding: 3px;
+}
+#loctxt{
+    margin-top: 50px;
+    text-indent: 5px;   
+}
+/****************LATERAL********************/
+#lateral{
+    background-color: rgba(255, 0, 0, 0);
+    width: 32.5%;
+    height: 800px;
+    margin: 0.75%;
+}
+#imgs2{
+    height: -100px;
+    margin-top: -50px;
+}
+#foto2{
+    width: 100%;
+    box-shadow: 2px 2px 4px 5px rgba(0, 0, 0, 0.450);
+}
+#fzrvisita{
+    width: 100%;
+    height: 145px;
+    background-color: #c8cab5;
+    margin-top: 5%;
+    box-shadow: 2px 2px 4px 5px rgba(0, 0, 0, 0.450);
+}
+#fzrvisita h2{
+    color: #917b63;
+    font-weight: bold;
+    padding: 20px 20px 5px 20px;
+    font-size: 1em;
+    
+}
+#fzrvisita label{
+    font-size: 0.9em;
+    padding: 20px 0px 10px 20px;
+}
+#fzrvisita input{
+    font-size: 0.9em;
+
+}
+#qtd{
+    width: 50px;
+    height: 15px;
+    margin-bottom: 15px;
+}
+#fzrvisita button{
+    display: block;
+    margin: auto;
+    padding: 5px 10px;
+    
+
+    background-color: #9c9175;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+
+/*********GALERIA DE FOTOS*********/
+
+#galeria{
+    margin-top: 20px;
+    width: 100%;
+    height: 330px;
+    background-color: #cccaca;
+    box-shadow: 2px 2px 4px 5px rgba(0, 0, 0, 0.450);
+    border-radius: 10px;
+}
+#galeria h2{
+    color: #917b63;
+    font-weight: bold;
+    padding: 20px 20px 5px 20px;
+    font-size: 1em;
+}
+#fotos{
+    background-color: rgba(241, 233, 200, 0.519);
+    width: 95%;
+    margin: auto;
+    height: 260px;
+    border-radius: 10px;
+}
+#ffoto{
+    width: 40%;
+    margin: 12px;
+    background-image: url(img/fundo-foto.png);
+}
+/***************RODAPÉ*******************/
+footer{
+    padding: 20px;
+    line-height: 20px;
+    background-image: url(img/fundo-rodape.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin: auto;
+    text-align: center;
+}
