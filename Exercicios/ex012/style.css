@@ -1,0 +1,44 @@
+#caixa{
+    width: 100px;
+    height: 100px;
+    background-color: #c42727;
+    border-radius: 50%;
+    margin-left: 50%;
+    margin-top: 21%;
+    transform: translate(-50%, -50%);
+    
+    
+
+    animation-name: loop;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;    
+}
+
+body{
+    background-image: linear-gradient(to top, red, blue, pink);
+    background-size: cover;
+    background-attachment: fixed;
+}
+/****************KEYFRAMES*******************/
+
+@keyframes loop {
+    from{
+        margin-left: 50%;
+        margin-top: 21%;
+        width: 150px;
+        height: 150px;
+        background-color: rgb(196, 39, 39);
+    }
+    to{
+        width: 250px;
+        height: 250px;
+        margin-left: 50%;
+        margin-top: 22%;
+        background-color: #5c33d8;
+        
+        
+    }
+    
+}
