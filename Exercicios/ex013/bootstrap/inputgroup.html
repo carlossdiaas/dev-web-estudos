@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input gruop</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body style="margin-bottom: 200px; padding: 15px;">
+    <form action="#">
+        <h1 class="p-2">Grupo Prepend</h1>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">@</span>
+            </div>
+            <input class="form-control" type="text" placeholder="e-mail">
+        </div>
+
+        <h1 class="p-2">Group Append</h1>
+        <div class="input-group">
+            <!-- NÃO ESQUECER DE COLOCAR O INPUT PRIMEIRO -->
+            <input class="form-control" type="text" placeholder="e-mail">
+            <div class="input-group-append">
+                <span class="input-group-text">@gmail.com</span>
+            </div>
+        </div>
+
+        <h1 class="p-2">URL customizada</h1>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <select class="input-group-text">https://site.com/user</select>
+            </div>
+            <input class="form-control" type="text" placeholder="Digite o seu usuário">
+        </div>
+
+        <h1>Barra de pesquisa</h1>
+        <div class="input-group"">
+            <input class="form-control " type="text" placeholder="Pesquisar...">
+            <div class="input-group-append">
+                <button type="button" class="btn btn-primary">Pesquisar</button>
+            </div>
+            
+        </div>
+    </form>
+</body>
+</html>

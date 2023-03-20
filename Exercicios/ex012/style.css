@@ -10,7 +10,7 @@
     
 
     animation-name: loop;
-    animation-duration: 1.5s;
+    animation-duration: 3s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-direction: alternate;    
@@ -37,6 +37,7 @@ body{
         margin-left: 50%;
         margin-top: 22%;
         background-color: #5c33d8;
+      
         
         
     }

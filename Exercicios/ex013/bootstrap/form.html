@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Faça seu login</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-tog">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <!-- LINKS -->
+        <div class="collapse navbar-collapse" id="nav-tog">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="navbar-nav ml-auto">
+                    <a href="#" class="nav-link">Sobre</a>
+                </li>
+                <li class="navbar-nav ml-auto">
+                    <a href="#" class="nav-link
+                    ">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- PODEMOS ALTERAR O TAMANHO DO INPUT -->
+    <!-- USANDO A CLASS="form-control-sm ou lg " -->
+    <form action="#" style="padding: 15px;">
+        <div class="form-group">
+            <label for="user">Usúario</label>
+            <input class="form-control" type="text" name="user" id="user" placeholder="Digite o seu user">
+        </div>
+        <div class="form-group">
+            <label for="mail">E-mail</label>
+            <input class="form-control" type="email" name="mail" id="mail" placeholder="Digite o seu e-mail">
+            <small class="form-text">Email será validado.</small>
+        </div>
+        <div class="form-group">
+            <label for="estado">Selecione o seu Estado</label>
+            <select class="form-control" name="estados" id="estados">
+                <option value="SP">São Paulo</option>
+                <option value="BA">Bahia</option>
+                <option value="RJ">Rio</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <textarea class="form-control" name="txtarea" id="txtarea" cols="30" rows="3"></textarea>
+        </div>
+        <div class="custom-file">
+            <label class="custom-file-label" for="file">Arquivo</label>
+            <input class="custom-file-input" type="file" id="file">
+        </div>
+        <div class="form-group">
+            <label for="range">Satisfação</label>
+            <input class="custom-range" type="range" name="sat" id="sat" min="1" max="5">
+        </div>
+        <div>
+            <input class="btn btn-primary" type="button" value="Salvar">
+        </div>
+        <hr>
+        
+    </form>
+    <form class="form-inline p-3">
+            <input class="form-control mr-2" type="text" placeholder="E-mail">
+            <input class="form-control mr-2"type="password" placeholder="Pass">
+            <input class="btn btn-primary" type="button" value="Logar">
+    </form>
+    <form action="#" class="p-3">
+        <hr>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input class="form-control is-valid" type="text" name="email" id="email">
+            <small class="valid-feedback">Email válido</small>
+        </div>
+        <div class="form-group"> 
+            <label for="senha">Senha</label>
+            <input class="form-control is-invalid" type="password" name="senha" id="senha">
+            <small class="invalid-feedback">Senha inválida</small>
+        </div>
+        <input class="btn btn-primary" type="button" value="Logar">
+    </form>
+</body>
+</html>
