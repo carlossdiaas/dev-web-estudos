@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Bootstrap - Configurações do grid</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <style>
+     .marcador1{
+        background-color: rgb(89, 159, 199);
+        border: 2px solid rgb(0, 0, 0);
+        
+      }
+      .marcador2{
+        background-color: rgb(177, 199, 89);
+        border: 2px solid rgb(0, 0, 0);
+      }
+      .bor{
+        border: 2px solid red;
+      }
+  </style>
+
+<body>
+
+  <div class="container marcador2">
+      
+    <h2>Largura fixa</h2>
+    <div class="row">
+      <div class="marcador1 col">area1</div>
+      <div class="marcador1 col">area2</div>
+      <div class="marcador1 col">area3</div>
+      <div class="marcador1 col">area4</div>
+    </div>
+    <h2>Largura automática (auto-layout)</h2>
+    <div class="row">
+      <div class="marcador1 col-2">area1</div>
+      <div class="marcador1 col-4">area2</div>
+      <div class="marcador1 col-6">area3</div>
+    </div>
+    <h2>Largura igual empilhada</h2>
+    <div class="row">
+      <div class="marcador1 col-sm">area1</div>
+      <div class="marcador1 col-sm">area2</div>
+      <div class="marcador1 col-sm">area3</div>
+    </div>
+    <h2>Ordenando</h2>
+    <div class="row">
+      <div class="marcador1 col-md-4 order-2">area1</div>
+      <div class="marcador1 col-md-4 order-3">area2</div>
+      <div class="marcador1 col-md-4 order-1">area3</div>
+    </div>
+    <h2>offset</h2>
+    <div class="row">
+      <div class="marcador1 col-md-6 offset-md-3">Login</div>
+    </div>
+    <h2>offset múltiplos alinhamentos</h2>
+    <div class="row">
+      <div class="marcador1 col-md-4 offset-md-1">Noticioa</div>
+      <div class="marcador1 col-md-4 offset-md-2">Login</div>
+    </div>
+     <h2>Aninhamento</h2>
+     <div class="row">
+      <div class="bor col-md-6">
+        col-md-6
+        <div class="row">
+          <div class="marcador1 col-4">
+            col
+          </div>
+          <div class="marcador2 col-6">
+            ola 
+
+          </div>
+
+        </div>
+      </div>
+     </div>
+  </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
