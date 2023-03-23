@@ -1,0 +1,15 @@
+#home{
+    background-image: linear-gradient(to bottom, #ffbf0d,#ffbd0f);
+    color: white;
+}
+.caixa{
+    padding: 60px 0px;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+#fot a{
+    margin: 0px 10px;
+}
+#fot{
+  margin-top: 10px;
+}
